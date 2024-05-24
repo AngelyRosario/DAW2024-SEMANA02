@@ -1,0 +1,232 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Encabezado */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Menú de navegación */
+#nav {
+    background-color: #444;
+    color: #b85555;
+    padding: 10px;
+}
+
+/* Sección principal */
+#section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Contenido principal */
+#article {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Contenido adicional */
+#aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Pie de página */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    #section {
+        flex-direction: column;
+    }
+    #article, #aside {
+        flex: auto;
+        margin: 5px;
+    }
+}
+
+/* Estilos CSS para la barra de navegación */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #ff0;
+  }
+
+  /* Estilos para el contenido de ejemplo */
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  h1 {
+    color: #ffffff;
+  }
+  /*ESTILOS DEL ARTICLE*/
+  #article {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .product img {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 4px;
+  }
+
+  .product-info {
+    flex-grow: 1;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+    color: #666;
+  }
+  /*COLOR AL BOTON Y DISEÑO*/
+  
+    .boton-carrito {
+        background-color: #f9fd00; 
+        color: rgb(0, 0, 0); 
+        border: none; 
+        padding: 10px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 5px; 
+    }
+
+    .boton-carrito:hover {
+        background-color: #565657; /* Color de fondo verde oscuro al pasar el ratón */
+    }
+    .pollito-img{
+        width: 20%; /* Cambia el tamaño según lo que necesites */
+        height: auto; /* Esto mantiene la proporción de la imagen */
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+/*FOOTER*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/*Estilos Aside*/
+.botones-lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.botones-lista li {
+  margin-bottom: 10px; /* Espacio entre botones */
+}
+
+.btn-politica,
+.btn-preguntas,
+.btn-contactos {
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-politica:hover,
+.btn-preguntas:hover,
+.btn-contactos:hover {
+  background-color: #f1ff31; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}

@@ -1,0 +1,19 @@
+.white-bg {
+    background-color: white !important;
+    color: rgba(33,37,41,255) !important;
+}
+.black-text {
+    color: rgba(33,37,41,255) !important;
+}
+.black-bg {
+    background-color: rgba(33,37,41,255) !important;
+}
+.black-border {
+    border-color: rgba(33,37,41,255) !important;
+}
+.black-fill {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(1%) saturate(3801%) hue-rotate(177deg) brightness(100%) contrast(98%)
+}
+.nav-pills li a:hover {
+    background-color: rgb(19, 78, 255);
+}

@@ -1,0 +1,118 @@
+
+    /* Estilos opcionales para el botón */
+    .botones{
+        background-color: rgb(157, 236, 104);
+        border: rgb(0, 0, 0);
+
+    }
+    
+    .primary {
+        padding: 10px 20px;
+        background-color: rgb(38, 54, 201);
+        color: rgb(253, 253, 253);
+        border: rgb(44, 160, 214);
+        border-radius: 4px; 
+        cursor: pointer;
+        margin: 10px;
+        flex: 10%;}
+        .primary:active {
+            background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+        }
+
+        .secondary {
+            padding: 10px 20px;
+            background-color: rgb(115, 111, 122);
+            color: rgb(253, 253, 253);
+            border: rgb(115, 111, 122);
+            border-radius: 4px; ; 
+            cursor: pointer;
+            margin: 10px;
+            flex: 10%;}
+            .secondary:active {
+                background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+            }
+    
+            .success {
+                padding: 10px 20px;
+                background-color: rgb(11, 170, 72);
+                color: rgb(253, 253, 253);
+                border: rgb(11, 170, 72);
+                border-radius: 4px; ;  
+                cursor: pointer;
+                margin: 10px;
+                flex: 10%;}
+                .success:active {
+                    background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+                }
+                .danger {
+                    padding: 10px 20px;
+                    background-color: rgb(204, 38, 38);
+                    color: rgb(253, 253, 253);
+                    border: rgb(204, 38, 38);
+                    border-radius: 4px; ; 
+                    cursor: pointer;
+                    margin: 10px;
+                    flex: 10%;}
+                    .danger:active {
+                        background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+                    }
+                    .warning {
+                        padding: 10px 20px;
+                        background-color: rgb(226, 230, 26);
+                        color: rgb(8, 8, 8);
+                        border: rgb(226, 230, 26);
+                        border-radius: 4px; ; 
+                        cursor: pointer;
+                        flex: 10%;
+                        margin: 10px;}
+                        .warning:active {
+                            background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+                        }
+                        .info {
+                            padding: 10px 20px;
+                            background-color: #007bff;;
+                            color: rgb(253, 253, 253);
+                            border: #007bff;;
+                            border-radius: 4px; ; 
+                            cursor: pointer;
+                            margin: 10px;
+                            flex: 10%;}
+                            .info:active {
+                                background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+                            }
+                            .light {
+                                padding: 10px 20px;
+                                background-color: #f8f9fa;
+                                color: rgb(0, 0, 0);
+                                border: #f8f9fa;
+                                border-radius: 4px; ; 
+                                cursor: pointer;
+                                margin: 10px;
+                                flex: 10%;}
+                                .light:active {
+                                    background-color: rgb(168, 18, 18); /* Cambia el color al hacer clic en el botón */
+                                }
+                                .dark {
+                                    padding: 10px 20px;
+                                    background-color:#343a40;
+                                    color: rgb(253, 253, 253);
+                                    border: #343a40;
+                                    border-radius: 4px; ; 
+                                    cursor: pointer;
+                                    margin: 10px;
+                                    flex: 10%;}
+                                    .dark:active {
+                                        background-color: rgb(255, 255, 255); /* Cambia el color al hacer clic en el botón */
+                                    }
+                                    .link {
+                                        padding: 10px 20px;
+                                        background-color: #f8f9fa;
+                                        color: rgb(26, 43, 197);
+                                        border: #f8f9fa;
+                                        border-radius: 4px; ; 
+                                        cursor: pointer;
+                                        margin: 10px;
+                                        flex: 10%;}
+                                        .link:active {
+                                            background-color: rgb(71, 2, 2); /* Cambia el color al hacer clic en el botón */
+                                        }
